@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKartBL", "DemoKartBL\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKartMainProgram", "DemoKartMainProgram\DemoKartMainProgram.csproj", "{6AACC2FE-4361-44FE-8E38-744729AD2230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKartBLTests", "DemoKartBLTests\DemoKartBLTests.csproj", "{F37C7CE9-960F-418F-BDE7-45F63023BB42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKartBLTests1", "DemoKartBLTests1\DemoKartBLTests1.csproj", "{5B390D2A-ABB4-4D48-B41A-FBE12E9A6F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{6AACC2FE-4361-44FE-8E38-744729AD2230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AACC2FE-4361-44FE-8E38-744729AD2230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AACC2FE-4361-44FE-8E38-744729AD2230}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F37C7CE9-960F-418F-BDE7-45F63023BB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F37C7CE9-960F-418F-BDE7-45F63023BB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F37C7CE9-960F-418F-BDE7-45F63023BB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F37C7CE9-960F-418F-BDE7-45F63023BB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B390D2A-ABB4-4D48-B41A-FBE12E9A6F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B390D2A-ABB4-4D48-B41A-FBE12E9A6F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B390D2A-ABB4-4D48-B41A-FBE12E9A6F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B390D2A-ABB4-4D48-B41A-FBE12E9A6F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
