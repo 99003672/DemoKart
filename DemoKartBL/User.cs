@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,34 +8,36 @@ namespace DemoKartBL
 {
     public class User
     {
-        public String firstName { get; set; }
-        public String lastName { get; set; }
-        public DateTime Dob { get; set; }
-        public int mobileNo { get; set; }
+       
+            public String FirstName { get; set; }
+            public String LastName { get; set; }
+            public DateTime Dob { get; set; }
+            public int MobileNo { get; set; }
 
-        public int Login(String UserName, String Password)
-        {
-            if (UserName == "onkar" && Password == "ok")
+            public int Login(String UserName, String Password)
             {
-                return 1;
+                if (UserName == "shrishti" && Password == "shri")
+                {
+                    return 1;
+                }
+                else if (UserName == "onkar" && Password == "ok")
+                {
+                    return 1;
+                }
+                else if (UserName == "shri" && Password == "shub")
+                {
+                    return 1;
+                }
+                else if (UserName == "adya" && Password == "appu")
+                {
+                    return 1;
+                }
+                else
+                {
+                    return 0;
+                }
             }
-            else if(UserName == "srushti" && Password == "sru")
-            {
-                return 1;
-            }
-            else if (UserName == "hii" && Password == "bye")
-            {
-                return 1;
-            }
-            else if (UserName == "a" && Password == "a")
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
+
         }
-
     }
-}
+
